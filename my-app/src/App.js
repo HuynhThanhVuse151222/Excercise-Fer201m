@@ -1,15 +1,16 @@
 // import logo from './logo.svg';
 import './App.css';
 import Footer from './components/Footer';
+import Main from './components/Main';
 import Navigation from './components/Navigation';
-import Players1 from './Players';
+
 
 
 function App() {
   return (
     <div className="App">
      <Navigation/> 
-     <Players1/>
+     <Main/>
    <Footer/>
     </div>
   );

@@ -1,7 +1,6 @@
-import React, { Component } from 'react'
+import React from 'react'
 
-export default class Navigation extends Component {
-  render() {
+export default function  Navigation() {
     return (
         <div id='header'> 
         
@@ -16,4 +15,3 @@ export default class Navigation extends Component {
         </div>
     )
   }
-}
