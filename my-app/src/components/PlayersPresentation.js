@@ -1,10 +1,10 @@
 import React from 'react'
 
-export default function PlayersPresentation({playerp}) {
- console.log(playerp);
+export default function PlayersPresentation({players}) {
+ console.log(players);
     return (
         <div className='container'>
-        {playerp.map((player)=>(
+        {players.map((player)=>(
         <div className='column'>
         <div className='card'>
         <img src={player.img} alt='pic'/>

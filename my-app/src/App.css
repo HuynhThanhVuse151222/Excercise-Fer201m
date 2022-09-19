@@ -1,3 +1,5 @@
+
+
 .App {
   text-align: center;
 }
@@ -60,6 +62,7 @@
   
 } */
 
+                            /* NAVBAR */
 ul {
   list-style-type: none;
   margin: 0;
@@ -80,9 +83,9 @@ li a {
   text-decoration: none;
 }
 
-/* Thay đổi màu liên kết thành #111 (black) khi di chuột */
+            /* Thay đổi màu liên kết thành #111 (black) khi di chuột */
 li a:hover {
-  background-color: rgb(226, 194, 9);
+  background-color: aliceblue;
 }
 
 .body{
@@ -90,22 +93,17 @@ li a:hover {
   height: auto;
   
 }
-/* .container{
-  display: grid; 
-  grid-template-columns: repeat(3,1fr);
-  grid-gap: 10px;
-}
-.container img{
-  width: 100%;
-} */
 
 
+
+                                /* Body */
 .container{
   display: flex;
   /* justify-content: space-around; */
   justify-items: center;
   flex-wrap: wrap;
   flex-direction: row;
+  
 }
 .container {
   width: 100%;
@@ -114,7 +112,7 @@ li a:hover {
 .card{
   max-width: 350px;
   height: auto;
-  margin: 40px;
+  /* margin: 40px; */
   position: relative;
 }
 
@@ -123,7 +121,7 @@ li a:hover {
   width: 100%;
   bottom: 0px;
   left: 0px;
-  background-color: aliceblue;
+  background-color: black;
   
 }
 
@@ -131,12 +129,59 @@ li a:hover {
   color: yellowgreen;
 }
 
+
+                                      
+h3 {
+ font-family: 'Poppins', sans-serif;
+  font-size: 24px;
+  font-weight: 550;
+}
+h3 {
+padding: 20px;
+}
+
+h4{
+   font-size: 20px;
+   font-family: 'Poppins', sans-serif;
+   color: coral;
+}
+h4 p{
+  padding: 10px;
+}
+p{
+  font-size: 16px;
+  margin-top: 0;
+}
+button{
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+font-weight: 550;
+}
+button{
+  border: none;
+  color: white;
+
+}
+button:hover{
+  color:white ;
+  background-color:yellowgreen;
+  font-weight: 550;
+}
+.year{
+ font-family: 'Poppins', sans-serif;
+ font-size: 16px;
+ margin: 0;
+ 
+}
+
+
+                                        /* FOOTER */
 .footer {
   position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: darkgoldenrod;
+  background-color: purple;
   color: white;
   text-align: center;
 } 
